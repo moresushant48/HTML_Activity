@@ -9,7 +9,7 @@ body {
 }
 
 
-.mainHeader_div{
+#mainHeader_div{
 	//border:1px solid green;
 	height:20%;
 	max-height:20%;
@@ -21,7 +21,7 @@ body {
 	padding-top:15px;
 	background-color:#383F44;
 }
-.logo_div{
+#logo_div{
 	//border:1px solid yellow;
 	max-width:64%;
 	max-height:100%;
@@ -31,7 +31,7 @@ body {
 	float:left;
 }
 
-.heading_div{
+#heading_div{
 	//border:1px solid green;
 	font-family:Cambria Math;
 	font-weight:bold;
@@ -45,7 +45,7 @@ body {
 	max-width:90%;	
 }
 
-.call_us{
+#call_us{
 	//border:1px solid green;
 	margin-top:auto;
 	margin-left:auto;
@@ -55,7 +55,7 @@ body {
 	float:right;
 }
 
-.call_us_png{
+#call_us_png{
 	//border:1px solid red;
 	float:left;
 	width:auto;
@@ -65,21 +65,22 @@ body {
 	padding-right:15px;
 }
 
-.call_us_num{
+#call_us_num{
 	float:left;
 	font-size:12px;
 	padding-top:50px;
 	padding-bottom:auto;
 }
 
-.navbar_div{
+#navbar_div{
 	//border: 2px solid gray;
 	width:100%;
 	max-width:100%;
 	margin-bottom:0px;
 	//position:relative;
 }
-.navbarlist {
+
+#navbarlist {
 	list-style-type: none;
 	margin-top: auto;
 	padding:0px;
@@ -88,7 +89,7 @@ body {
 	//overflow:hidden;
 }
 
-.navbarlist_item .navbarlist_item_link{
+#navbarlist_item #navbarlist_item_link{
 	float:left;
 	//display:flex;
 	text-align:center;
@@ -99,18 +100,18 @@ body {
 	//overflow:hidden;
 }
 
-.navbarlist_item .navbarlist_item_link:hover{
+#navbarlist_item #navbarlist_item_link:hover{
 	background-color: gray;
 }
 
-.homebody{
+#homebody{
 	padding:8px;
 	height:auto;
 	background-color:#6A757D;
 	color:#ecf0f1;
 }
 
-.mq{
+#mq{
 	font-family:Lucida Sans Unicode;
 	font-size:20pt;
 	background-color:#545F67;
@@ -118,19 +119,19 @@ body {
 	margin-top:5px;	
 }
 
-.posters_div{
+#posters_div{
 	text-align:center;
 	padding-top:20px;
 	padding-bottom:10px;
 	//border:1px solid red;
 }
 
-.posters{
+#posters{
 	height:250px;
 	width:250px;
 }
 
-/*.posters:hover{
+/*#posters:hover{
 	height:300px;
 	width:300px;
 }*/
@@ -139,21 +140,21 @@ hr{
 	width:95%;
 }
 
-.afterhr{
+#afterhr{
 	//border:1px solid green;
 	height:60%;
 	max-height:60%;
 	max-width:100%
 }
 
-.table{
+#table{
 	//border:1px solid red;
 	float:left;
 	width:60%;
 	margin-left:auto;
 	margin-right:auto;
 }
-.timetable{
+#timetable{
 	font-size:18px;
 	width:100%;
 	padding:10px;
@@ -161,15 +162,15 @@ hr{
 	text-align:center;
 }
 
-.tr1{
+#tr1{
 	background-color:#4C565D;
 }
 
-.tr2{
+#tr2{
 	background-color:#545F67;
 }
 
-.video_div{
+#video_div{
 	//border:1px solid yellow;
 	height:100%;
 	width:30%;
@@ -179,12 +180,12 @@ hr{
 	margin-left:auto;
 	margin-right:auto;	
 }
-.offersVideo{
+#offersVideo{
 	height:90%;
 	width:100%;
 }
 
-.cities{
+#cities{
 	font-size:14pt;
 	margin-top:14px;
 	padding-left:12px;
@@ -200,7 +201,7 @@ footer{
 	max-width:100%
 }
 
-.footer_text{
+#footer_text{
 	//margin-top:10px;
 	font-size:14pt;
 	max-height:100%;
